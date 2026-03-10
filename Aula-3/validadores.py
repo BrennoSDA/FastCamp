@@ -76,7 +76,7 @@ def validate (data: dict[str, Any]) -> None:
         print("User is invalid")
         print(e)
 
-def main() -> None
+def main() -> None:
     test_data = dict(
         good_data = {
             "name": "Arjan",
