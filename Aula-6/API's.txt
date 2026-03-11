@@ -1,0 +1,5 @@
+API KEY:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.yF7fJ_B4CggSv4Q-05P1JXfUAZHaBAgKTmHrzO3Zd38
+
+Cluster Endpoint:
+https://80be2a23-2fd2-4ebf-bddc-7efbe36133dc.us-east4-0.gcp.cloud.qdrant.io
