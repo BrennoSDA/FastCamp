@@ -1,3 +1,5 @@
+#API usada na aula
+
 API KEY:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.yF7fJ_B4CggSv4Q-05P1JXfUAZHaBAgKTmHrzO3Zd38
 
