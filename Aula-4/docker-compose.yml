@@ -1,16 +1,16 @@
 services:
   n8n-youtube:
-    image: n8nio/n8n
+    image: n8nio/n8n #Caminho de onde a imagem usada está
     ports:
-      - "5678:5678"
+      - "5678:5678" #Utilizado a porta padrão do n8n
     volumes:
-      - ./:/home/node/.n8n
+      - ./:/home/node/.n8n #Os arquivos foram para a pasta dentro do disco local C
     environment:
-      GENERIC_TIMEZONE: America/Sao_Paulo
-    restart: unless-stopped
+      GENERIC_TIMEZONE: America/Sao_Paulo #Utilizado o horário de São Paulo
+    restart: unless-stopped #Definido para sempre reiniciar caso pare, exceto se eu para-lo manualmente
     networks:
-      - n8n-network-youtube
+      - n8n-network-youtube #Definido a rede que o servico irá conectar para caso eu queira colocar mais servicos depois
       
 networks:
   n8n-network-youtube:
-    driver: bridge
+    driver: bridge #Driver de rede padrão que será usado
